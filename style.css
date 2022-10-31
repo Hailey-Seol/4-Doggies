@@ -1,42 +1,68 @@
-.background_image{
+.background_image {
   background-image: url(imgs/back_p1.jpg);
   background-size: 100%;
   background-attachment: fixed;
   background-position: center;
+  width:100vw;
+  height:100vh;
 }
-.background{
+
+.background {
   background-image: url(imgs/bg_all.jpg);
   background-attachment: fixed;
   background-position: center;
+  width:100vw;
+  height:100vh;
 }
-.puppies{
+
+.puppies {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.puppies div{
-  border: 4px border #ffffff;
+
+.puppies div {
+  border: 0px border #ffffff;
+  background-color: rgba(255, 255, 255, .6);
   flex: 1;
   flex-direction: row;
   align-items: center;
 }
-img{
-  width:50%;
+.puppies div:hover{
+  border: 4px border #ffffff;
 }
-body{
-  margin:0;
+
+img {
+  width: 50%;
+}
+
+body {
+  margin: 0;
   font-family: 'Retro Gaming';
-  }
-h1, h2, h3{
+}
+
+h1,
+h2,
+h3 {
   font-family: 'Retro Gaming';
   color: #ffffff;
-  }
-h1{
-  font-size:171.82px;
-  text-align: center;}
-h2{
-  font-size:48px;
-  text-align: center;}
-h3{
-  font-size:56.01px;
-  text-align: center;}
+}
+
+h1 {
+  font-size: 171.82px;
+  text-align: center;
+  margin: 0%;
+  padding-top: 200px;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 56.01px;
+  text-align: center;
+  margin: 0%;
+  padding-top: 100px;
+}
