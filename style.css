@@ -6,7 +6,6 @@
 }
 .background{
   background-image: url(imgs/bg_all.jpg);
-  background-size: 100%;
   background-attachment: fixed;
   background-position: center;
 }
