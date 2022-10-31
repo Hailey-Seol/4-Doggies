@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    margin:0;
+    font-family: 'Retro Gaming';
+  }
+  h1, h2, h3{
+    font-family: 'Retro Gaming';
+  }
+  h1{
+    font-size:171.82px;
+    text-align: center;}
+  h2{
+    font-size:48px;
+    text-align: center;}
+  h3{
+    font-size:56.01px;
+    text-align: center;}
